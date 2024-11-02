@@ -16,7 +16,7 @@ const Footer = () => {
       <p>
           基于&nbsp;
           <CustomLink to="https://github.com/imsyy/site-status" text="SiteStatus" />
-          &nbsp;搭建&nbsp;|&nbsp;By 無名 | Imsyy
+          &nbsp;构建&nbsp;|&nbsp;By：無名
         </p>
         <p>
           基于&nbsp;
