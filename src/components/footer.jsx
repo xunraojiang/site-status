@@ -12,21 +12,11 @@ const Footer = () => {
 
   return (
     <footer id="footer">
-      <div className="social">
-        <CustomLink
-          iconDom={<GithubOne />}
-          to={`https://github.com/${githubName}/`}
-        />
-        <CustomLink iconDom={<Home />} to={homeUrl} />
-        <CustomLink iconDom={<Mail />} to={`mailto:${emailUrl}`} />
-      </div>
       <div className="text">
-        <p>
-          <CustomLink
-            text={Package.alia}
-            to="https://github.com/imsyy/site-status"
-          />
-          &nbsp;Version&nbsp;{Package.version}
+      <p>
+          基于&nbsp;
+          <CustomLink to="https://github.com/imsyy/site-status" text="SiteStatus" />
+          &nbsp;搭建&nbsp;|&nbsp;By 無名 | Imsyy
         </p>
         <p>
           基于&nbsp;
@@ -34,9 +24,9 @@ const Footer = () => {
           &nbsp;接口&nbsp;|&nbsp;检测频率 5 分钟
         </p>
         <p>
-          Copyright&nbsp;&copy;&nbsp;2020&nbsp;-&nbsp;{new Date().getFullYear()}
+          Copyright&nbsp;&copy;&nbsp;2021&nbsp;-&nbsp;{new Date().getFullYear()}
           &nbsp;
-          <CustomLink to="https://www.imsyy.top/" text="無名" />
+          <CustomLink to="https://www.shenyi.ink/" text="沈异" />
           {siteIcp ? (
             <React.Fragment>
               &nbsp;|&nbsp;
